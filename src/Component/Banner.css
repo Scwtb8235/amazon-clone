@@ -1,0 +1,14 @@
+.banner{
+background-color: rgb(35, 47, 62);
+height: 42px;
+}
+.banner_nav{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 10px;   
+}
+.banner_nav span:hover{
+    border: solid 1px;
+    padding: 9px;
+}
