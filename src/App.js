@@ -11,6 +11,7 @@ import Login from './Component/Login';
 import Payment from './Component/Payment';
 import {loadStripe} from "@stripe/stripe-js"
 import {Elements} from "@stripe/react-stripe-js"
+import Orders from './Component/Orders';
 const promise = loadStripe(
   "pk_test_51N0WGPGmRj1Z1DFGwoI1AGh5uHyIXfUFPDlJJ64WgoogAYxVWs57IgSGzt0re43MqfBEbDOXHOvETblJJKDeGV8M00RlsImBps"
 );
@@ -34,7 +35,7 @@ function App() {
         });
       }
     });
-  }, [dispatch]);
+  }, []);
 
   return (
     <Router>
@@ -51,20 +52,32 @@ function App() {
               </>
             }
           ></Route>
+          <Route
+            path="/orders"
+            element={
+              <>
+                <Header />
+                <Banner />
+                <Orders />
+              </>
+            }
+          />
+
           <Route path="/login" element={<Login />}>
             {" "}
           </Route>
-          <Route path="/payment" element={<>
-          <Header/>
-          <Elements stripe={promise}>
-              <Payment />
-          </Elements>
-          </>
-          }
-        />
-          
-          
-          
+          <Route
+            path="/payment"
+            element={
+              <>
+                <Header />
+                <Elements stripe={promise}>
+                  <Payment />
+                </Elements>
+              </>
+            }
+          />
+
           <Route
             path="/"
             element={

@@ -36,6 +36,7 @@ function Payment() {
 
     getClientSecret();
     }, [basket]);
+    console.log(clientSecret)
         const handleSubmit = async(event)=>{
             event.preventDefault();
             setProcessing(true);
@@ -66,7 +67,7 @@ function Payment() {
             type: 'EMPTY_BASKET',
         });
 
-        navigate.replace('/orders');
+        navigate('/orders');
     });
 
         };        

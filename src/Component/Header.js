@@ -130,6 +130,9 @@ return (
         <option value="search-alias=wholefoods">Whole Foods Market</option>
       </select>
     </div>
+
+
+    
     <div className="header__search">
       <input className="header__searchInput" type="text" />
       <SearchIcon className="header__searchIcon" />
