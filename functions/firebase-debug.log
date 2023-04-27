@@ -158,3 +158,14 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] i  functions: Finished "us-central1-api" in 307.0647ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 307.0647ms"}}
 [debug] [2023-04-26T18:43:53.807Z] [worker-us-central1-api-7205d9a7-c74a-492a-b7ad-1f3f890c2327]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7205d9a7-c74a-492a-b7ad-1f3f890c2327]: IDLE"}}
 [debug] [2023-04-26T18:43:53.808Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-04-27T17:26:22.097Z] [work-queue] {"queuedWork":["/clone-901f7/us-central1/api-2023-04-27T17:26:22.093Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-04-27T17:26:22.101Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/clone-901f7/us-central1/api-2023-04-27T17:26:22.093Z"],"workRunningCount":1}
+[debug] [2023-04-27T17:26:22.101Z] Accepted request GET /clone-901f7/us-central1/api --> us-central1-api
+[debug] [2023-04-27T17:26:22.129Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-04-27T17:26:22.131Z] [functions] Got req.url=/clone-901f7/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/clone-901f7/us-central1/api, mapping to path=/"}}
+[debug] [2023-04-27T17:26:22.132Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-04-27T17:26:22.135Z] [worker-us-central1-api-7205d9a7-c74a-492a-b7ad-1f3f890c2327]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7205d9a7-c74a-492a-b7ad-1f3f890c2327]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 62.4262ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 62.4262ms"}}
+[debug] [2023-04-27T17:26:22.199Z] [worker-us-central1-api-7205d9a7-c74a-492a-b7ad-1f3f890c2327]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7205d9a7-c74a-492a-b7ad-1f3f890c2327]: IDLE"}}
+[debug] [2023-04-27T17:26:22.199Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}

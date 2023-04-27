@@ -51,7 +51,7 @@ function App() {
                 <Checkout />
               </>
             }
-          ></Route>
+          />
           <Route
             path="/orders"
             element={
@@ -63,9 +63,9 @@ function App() {
             }
           />
 
-          <Route path="/login" element={<Login />}>
+          <Route path="/login" element={<Login />}/>
             {" "}
-          </Route>
+          
           <Route
             path="/payment"
             element={
@@ -86,7 +86,7 @@ function App() {
                 <Home />{" "}
               </>
             }
-          ></Route>
+          />
         </Routes>
       </div>
     </Router>
